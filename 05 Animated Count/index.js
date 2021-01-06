@@ -8,14 +8,14 @@ counters.forEach((counter) => {
 		const target = +counter.getAttribute("data-target");
 		const count = +counter.innerText;
 
-		// number by which to increment
 		const increment = target / 200;
 
 		if (count < target) {
-			counter.innerText = `${Math.ceil(count + increment)}`;
+            counter.innerText = `${Math.ceil(count + increment)}`;
+            // animation spread across 10 seconds
 			setTimeout(updateCounter, 10);
 		} else {
-			counter.innerText = target;
+			counter.innerText = count;
 		}
 	};
 	updateCounter();
