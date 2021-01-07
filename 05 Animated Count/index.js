@@ -3,20 +3,21 @@ const counters = document.querySelectorAll(".counter");
 counters.forEach((counter) => {
 	counter.innerText = "0";
 
-	const updateCounter = () => {
-		// plus operand converts string to number
+	const counterUpdate = () => {
+		// plus operand before counter turns string to number
 		const target = +counter.getAttribute("data-target");
 		const count = +counter.innerText;
 
+		// target divided to create our increment over time
 		const increment = target / 200;
 
 		if (count < target) {
-            counter.innerText = `${Math.ceil(count + increment)}`;
-            // animation spread across 10 seconds
-			setTimeout(updateCounter, 10);
+			// get highest divisible element with math.ceil method
+			counter.innerText = `${Math.ceil(count + increment)}`;
+			setTimeout(counterUpdate, 10);
 		} else {
-			counter.innerText = count;
+			counter.innerText = target;
 		}
 	};
-	updateCounter();
+	counterUpdate();
 });
