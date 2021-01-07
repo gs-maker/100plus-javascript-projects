@@ -8,3 +8,5 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 | 3 | 02 | Analog clock with html-css-javascript | https://codepen.io/gs-maker/pen/ZEpoBJG |
 | 4 | 02 | Digital Clock | https://codepen.io/gs-maker/pen/gOwzjWN |
 | 5 | 03 | Animated Count up | https://codepen.io/gs-maker/pen/zYKaKmX |
+| 6 | 04 | Count down |  |
+| 7 | 04 | Pomodoro Clock |  |
