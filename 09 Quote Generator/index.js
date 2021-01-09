@@ -13,6 +13,10 @@ const quotes = [
 	},
 	{ name: "Leonardo DaVinci", quote: "Simplicity is the ultimate sophistication." },
 	{ name: "Leo Tolstoy", quote: "If you want to be happy, be" },
+	{
+		name: "Winston Churchill",
+		quote: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+	},
 ];
 
 const quote = document.querySelector(".quote");
