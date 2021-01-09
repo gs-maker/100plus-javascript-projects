@@ -7,7 +7,7 @@ nextBtn.addEventListener(
 	"click",
 	(nextSlide = () => {
 		container.animate([{ opacity: 0.2 }, { opacity: 1 }], { duration: 500 }, { fill: "forwards" });
-		if (counter === 6) {
+		if (counter === 5) {
 			counter = -1;
 		}
 		counter++;
@@ -20,7 +20,7 @@ prevBtn.addEventListener(
 	(prevSlide = () => {
 		container.animate([{ opacity: 0.2 }, { opacity: 1 }], { duration: 500 }, { fill: "forwards" });
 		if (counter === 0) {
-			counter = 6;
+			counter = 5;
 		}
 		counter--;
 		container.style.backgroundImage = `url(images/bcg-${counter}.jpg)`;
