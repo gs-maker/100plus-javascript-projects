@@ -3,6 +3,7 @@ const stop = document.querySelector("#stop");
 const reset = document.querySelector("#reset");
 
 let count = 0;
+
 let minutes = 0;
 let seconds = 0;
 let milliSeconds = 0;
@@ -36,7 +37,6 @@ start.addEventListener('click', function(){
     }
 })
 
-
 // stop timer
 stop.addEventListener('click', function(){
     clearInterval(interval)
@@ -55,7 +55,6 @@ reset.addEventListener('click', function(){
 	document.querySelector("#seconds").innerText = "00";
 	document.querySelector("#m-seconds").innerText = "00";
 })
-
 
 // add zero for numbers below 10
 let addZero = (time) => {
