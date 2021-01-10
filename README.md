@@ -4,7 +4,8 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 
 | Item | Day | Description                                          | Project Link                            |
 | ---- | :-- | :--------------------------------------------------- | :-------------------------------------- |
-| 9    | 06  | Random quote generator                               | https://codepen.io/gs-maker/pen/RwGBvOL |
+| 10   | 07  | Stop watch [setInterval(), clearInterval()]          | https://codepen.io/gs-maker/pen/JjRaYzM |
+| 9    | 06  | Random quote generator [ Math.random()]              | https://codepen.io/gs-maker/pen/RwGBvOL |
 | 8    | 06  | Image slider                                         |                                         |
 | 7    | 05  | Custom progress bar                                  | https://codepen.io/gs-maker/pen/mdrjMJZ |
 | 6    | 04  | Count down                                           | https://codepen.io/gs-maker/pen/qBaKJrZ |

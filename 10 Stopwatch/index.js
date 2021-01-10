@@ -10,6 +10,10 @@ let milliSeconds = 0;
 let startTimer = () => {
 	count++;
     // formula for time calculation
+    // minutes = Math.floor((count / 100) / 60);
+	// seconds = Math.floor((count / 100 ) - (minutes * 60));
+    // milliSeconds = Math.floor(count - (seconds * 100 ) - (minutes * 6000));
+
     minutes = Math.floor((count / 100) / 60);
 	seconds = Math.floor((count / 100 ) - (minutes * 60));
     milliSeconds = Math.floor(count - (seconds * 100 ) - (minutes * 6000));
