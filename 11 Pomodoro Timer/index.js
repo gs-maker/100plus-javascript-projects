@@ -1,6 +1,6 @@
 let start = document.getElementById("start");
 let reset = document.getElementById("reset");
-let stop = document.getElementById("stop");
+let pause = document.getElementById("stop");
 
 let wm = document.getElementById("workMinutes");
 let ws = document.getElementById("workSeconds");
@@ -9,39 +9,39 @@ let bm = document.getElementById("breakMinutes");
 let bs = document.getElementById("breakSeconds");
 
 // reference to timer variable
-let startTime;
+let startTimer;
+let timeRunning = false;
 
-let timerRunning = false;
-// actions on click
+// start timer
 start.addEventListener("click", function () {
-	if (startTime === undefined) {
-		startTime = setInterval(timer, 1000);
-		timerRunning = true;
+	if (startTimer === undefined) {
+		setTimer = setInterval(timer, 1000);
+		timeRunning = true;
 	}
 });
 
 // stop timer
-stop.addEventListener("click", function () {
+pause.addEventListener("click", function () {
 	stopInterval();
-	startTime = undefined;
+	startTimer = undefined;
 });
 
-// reset timer
+//reset timer
 reset.addEventListener("click", function () {
-	wm.innerText = 1;
+	wm.innerText = 25;
 	ws.innerText = "00";
 
-	bm.innerText = 1;
+	bm.innerText = 5;
 	bs.innerText = "00";
 
 	document.getElementById("counter").innerText = 0;
-
 	stopInterval();
-	startTime = undefined;
+	startTimer = undefined;
 });
 
+// timer function
 function timer() {
-	// start timer
+	// work timer
 	if (ws.innerText != 0) {
 		ws.innerText--;
 	} else if (wm.innerText != 0 && ws.innerText == 0) {
@@ -59,7 +59,7 @@ function timer() {
 		}
 	}
 
-	// increment cycle by one after work and break
+	// reset timer
 	if (wm.innerText == 0 && ws.innerText == 0 && bm.innerText == 0 && bs.innerText == 0) {
 		wm.innerText = 25;
 		ws.innerText = "00";
@@ -71,7 +71,6 @@ function timer() {
 	}
 }
 
-// stop timer function
 function stopInterval() {
-	clearInterval(startTime);
+	clearInterval(startTimer);
 }
