@@ -14,20 +14,22 @@ body {
 }
 
 .header {
-	border-bottom: 1px solid lightgrey;
+	border-bottom: 1px solid black;
 	margin-bottom: 32px;
 }
 
-h3 {
+h2 {
 	margin-bottom: 12px;
+	text-transform: uppercase;
 }
-.display {
-	font-size: 6rem;
+
+.counter {
+	font-size: 5rem;
 }
 
 .buttons {
 	margin-top: 32px;
-	border-top: 1px solid lightgrey;
+	border-top: 1px solid black;
 }
 
 .btn {
@@ -35,7 +37,7 @@ h3 {
 	font-size: 16px;
 	border: none;
 	border-radius: 32px;
-	margin: 8px 16px;
+	margin: 32px 12px 0 0;
 	color: white;
 }
 
