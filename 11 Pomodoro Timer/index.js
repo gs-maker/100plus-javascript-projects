@@ -8,35 +8,40 @@ let ws = document.getElementById("workSeconds");
 let bm = document.getElementById("breakMinutes");
 let bs = document.getElementById("breakSeconds");
 
-let startTimer;
-let timeRunning = false;
-// start timer
+// reference to timer variable
+let startTime;
+
+let timerRunning = false;
+// actions on click
 start.addEventListener("click", function () {
-	if (startTimer === undefined) {
-		startTimer = setInterval(timer, 1000);
-		timeRunning = true;
+	if (startTime === undefined) {
+		startTime = setInterval(timer, 1000);
+		timerRunning = true;
 	}
 });
 
 // stop timer
 stop.addEventListener("click", function () {
-	stopTimer();
-	startTimer = undefined;
+	stopInterval();
+	startTime = undefined;
 });
 
 // reset timer
 reset.addEventListener("click", function () {
-	wm.innerText = 25;
+	wm.innerText = 1;
 	ws.innerText = "00";
 
-	bm.innerText = 5;
+	bm.innerText = 1;
 	bs.innerText = "00";
 
 	document.getElementById("counter").innerText = 0;
+
+	stopInterval();
+	startTime = undefined;
 });
 
-// work timer
 function timer() {
+	// start timer
 	if (ws.innerText != 0) {
 		ws.innerText--;
 	} else if (wm.innerText != 0 && ws.innerText == 0) {
@@ -45,16 +50,16 @@ function timer() {
 	}
 
 	// break timer
-	if (bm.innerText != 0 && bs.innerText != 0) {
+	if (wm.innerText == 0 && ws.innerText == 0) {
 		if (bs.innerText != 0) {
 			bs.innerText--;
-		} else if (wm.innerText == 0 && ws.innerText == 0) {
+		} else if (bm.innerText != 0 && bs.innerText == 0) {
 			bs.innerText = 59;
 			bm.innerText--;
 		}
 	}
 
-	// increment cycle by one
+	// increment cycle by one after work and break
 	if (wm.innerText == 0 && ws.innerText == 0 && bm.innerText == 0 && bs.innerText == 0) {
 		wm.innerText = 25;
 		ws.innerText = "00";
@@ -67,6 +72,6 @@ function timer() {
 }
 
 // stop timer function
-function stopTimer() {
-	clearInterval(startTimer);
+function stopInterval() {
+	clearInterval(startTime);
 }
