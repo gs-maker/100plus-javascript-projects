@@ -5,7 +5,7 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 | Item | Day | Description                                          | Project Link                            |
 | ---- | :-- | :--------------------------------------------------- | :-------------------------------------- |
 | 13   | 09  | Side Bar Navigation [add classList method]           |                                         |
-| 12   | 09  | Responsive Navigation [toggle() method]              |                                         |
+| 12   | 09  | Responsive Navigation [toggle() method]              | https://codepen.io/gs-maker/pen/PoGyKPV |
 | 11   | 08  | Pomodoro Timer [setInterval(), clearInterval()]      | https://codepen.io/gs-maker/pen/wvzEQVL |
 | 10   | 07  | Stop watch [setInterval(), clearInterval()]          | https://codepen.io/gs-maker/pen/JjRaYzM |
 | 9    | 06  | Random quote generator [ Math.random()]              | https://codepen.io/gs-maker/pen/RwGBvOL |
