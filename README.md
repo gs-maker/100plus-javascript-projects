@@ -4,6 +4,7 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 
 | Item | Day | Description                                          | Project Link                            |
 | ---- | :-- | :--------------------------------------------------- | :-------------------------------------- |
+| 11   | 08  | Pomodoro Timer [setInterval(), clearInterval()]      | https://codepen.io/gs-maker/pen/wvzEQVL |
 | 10   | 07  | Stop watch [setInterval(), clearInterval()]          | https://codepen.io/gs-maker/pen/JjRaYzM |
 | 9    | 06  | Random quote generator [ Math.random()]              | https://codepen.io/gs-maker/pen/RwGBvOL |
 | 8    | 06  | Image slider                                         |                                         |

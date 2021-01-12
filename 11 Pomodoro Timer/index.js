@@ -9,15 +9,21 @@ let bm = document.getElementById("breakMinutes");
 let bs = document.getElementById("breakSeconds");
 
 // variable reference for start time
-let startTime;
-let timerRunning = false;
+let startTimer;
+let timeRunning = false;
 
 // start timer
 start.addEventListener("click", function () {
-	if (startTime == undefined) {
-		setInterval(timer, 1000);
-		timerRunning = true;
+	if (startTimer === undefined) {
+		startTimer = setInterval(time, 1000);
+		timeRunning = false;
 	}
+});
+
+// stop timer
+stop.addEventListener("click", function () {
+	stopInterval();
+	startTimer = undefined;
 });
 
 // reset timer
@@ -30,16 +36,10 @@ reset.addEventListener("click", function () {
 
 	document.getElementById("counter").innerText = 0;
 	stopInterval();
-	timerRunning = false;
+	startTimer = undefined;
 });
 
-// stop timer
-stop.addEventListener("click", function () {
-	stopInterval();
-	timerRunning = false;
-});
-
-function timer() {
+function time() {
 	// work timer
 	if (ws.innerText != 0) {
 		ws.innerText--;
@@ -58,7 +58,7 @@ function timer() {
 		}
 	}
 
-	// increment by one when work timer and break timer are zero
+	// increment cycle count by  one when work and zero timers are zero
 	if (wm.innerText == 0 && ws.innerText == 0 && bm.innerText == 0 && bs.innerText == 0) {
 		wm.innerText = 25;
 		ws.innerText = "00";
@@ -70,6 +70,7 @@ function timer() {
 	}
 }
 
+// stop interval function
 function stopInterval() {
-	clearInterval(startTime);
+	clearInterval(startTimer);
 }
