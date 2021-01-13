@@ -2,7 +2,7 @@
 
 In the quest to improve my understanding of Javascript, I am on a journey to build small, medium and large projects using Vanilla Javascript
 
-| Item | Day | Description                                          | Project Link                            |
+| Item | Day | Description                                          | Project Link  & Demo code               |
 | ---- | :-- | :--------------------------------------------------- | :-------------------------------------- |
 | 15   | 10  | Accordion style items                                |                                         |
 | 14   | 10  | Modal [contains, remove, add methods]                |                                         |
