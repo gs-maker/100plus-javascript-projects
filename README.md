@@ -19,7 +19,7 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 | 11   | 08  | Pomodoro Timer [setInterval(), clearInterval()]      | https://codepen.io/gs-maker/pen/wvzEQVL |
 | 10   | 07  | Stopwatch [setInterval(), clearInterval()]           | https://codepen.io/gs-maker/pen/JjRaYzM |
 | 9    | 06  | Random Quote Generator [ Math.random()]              | https://codepen.io/gs-maker/pen/RwGBvOL |
-| 8    | 06  | Image Slider                                         |                                         |
+| 8    | 06  | Image Slider with next and previous                  |                                         |
 | 7    | 05  | Custom Progress Bar                                  | https://codepen.io/gs-maker/pen/mdrjMJZ |
 | 6    | 04  | Count Down                                           | https://codepen.io/gs-maker/pen/qBaKJrZ |
 | 5    | 03  | Animated Count Up                                    | https://codepen.io/gs-maker/pen/zYKaKmX |
