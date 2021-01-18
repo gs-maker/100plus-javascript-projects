@@ -1,15 +1,15 @@
 const codes = document.querySelectorAll(".code");
 
-// focus on first input field
+// focus on first input
 codes[0].focus();
 
 codes.forEach((code, index) => {
 	code.addEventListener("keydown", (event) => {
-		if (event.key >= 0 && event.key <= 9) {
-			// replace any number in input
-			codes[index].value = "";
+		// replace any number in input with empty string
+		codes[index].value = "";
 
-			// delay input into next field
+		if (event.key >= 0 && event.key <= 9) {
+			// delay to prevent typing into next input
 			setTimeout(() => {
 				codes[index + 1].focus();
 			}, 10);
