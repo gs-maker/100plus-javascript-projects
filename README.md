@@ -5,9 +5,8 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 | Item | Day | Description                                          | Project Link & Demo code                |
 | ---- | :-- | :--------------------------------------------------- | :-------------------------------------- |
 | 24   | 14  |                                                      |                                         |
-| 23   | 14  |                                                      |                                         |
-| 22   | 13  | Loading Blur Effect                                  |                                         |
-| 21   | 13  | Verify Account with 6-Digit code                     |                                         |
+| 22   | 14  |                                                      |                                         |
+| 21   | 13  | Verify Account with 6-Digit code                     | https://codepen.io/gs-maker/pen/VwKgdNR |
 | 20   | 12  | Sticky Navigation with color change on scroll        | https://codepen.io/gs-maker/pen/YzGBeeR |
 | 19   | 12  | Vertical Image Slider                                |                                         |
 | 18   | 11  | Toast Notification                                   | https://codepen.io/gs-maker/pen/mdrvXBv |
