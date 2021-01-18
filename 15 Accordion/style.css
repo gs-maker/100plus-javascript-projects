@@ -39,6 +39,7 @@ body {
 .question-btn {
 	font-size: 1.25rem;
 	border: none;
+	background-color: #f0f0f0;
 }
 
 .accordion-body {

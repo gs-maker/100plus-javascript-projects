@@ -8,12 +8,12 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 | 23   | 14  |                                                      |                                         |
 | 22   | 13  | Loading Blur Effect                                  |                                         |
 | 21   | 13  | Verify Account with 6-Digit code                     |                                         |
-| 20   | 12  | Sticky Navigation with color change on scroll        |                                         |
+| 20   | 12  | Sticky Navigation with color change on scroll        | https://codepen.io/gs-maker/pen/YzGBeeR |
 | 19   | 12  | Vertical Image Slider                                |                                         |
-| 18   | 11  | Toast Notification                                   |                                         |
-| 17   | 11  | Hidden - Expanding search field [toggle() method]    |                                         |
+| 18   | 11  | Toast Notification                                   | https://codepen.io/gs-maker/pen/mdrvXBv |
+| 17   | 11  | Hidden - Expanding search field [toggle() method]    | https://codepen.io/gs-maker/pen/poEGarb |
 | 16   | 10  | Image Accordion [add/remove methods]                 |                                         |
-| 15   | 10  | Accordion Style Items [FAQs - add/remove methods]    |                                         |
+| 15   | 10  | Accordion Style Items [FAQs - add/remove methods]    | https://codepen.io/gs-maker/pen/oNzmEXp |
 | 14   | 10  | Modal [contains/remove/add methods]                  | https://codepen.io/gs-maker/pen/oNzaVaW |
 | 13   | 10  | Side Bar Navigation [contains/remove/add methods]    | https://codepen.io/gs-maker/pen/dypgQXp |
 | 12   | 09  | Responsive Navigation [toggle() method]              | https://codepen.io/gs-maker/pen/PoGyKPV |
