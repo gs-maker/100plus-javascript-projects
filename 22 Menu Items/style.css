@@ -112,8 +112,12 @@ Menu
 }
 .title {
 	text-align: center;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
+	font-size: 3rem;
+	font-weight: 500;
+	color: black;
 }
+
 .underline {
 	width: 5rem;
 	height: 0.25rem;
@@ -140,7 +144,7 @@ Menu
 	cursor: pointer;
 }
 .filter-btn:hover {
-	background: rgb(87, 87, 158);
+	background: black;
 	color: white;
 	border: none;
 }
