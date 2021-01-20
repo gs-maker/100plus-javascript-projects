@@ -86,27 +86,49 @@ const menu = [
 ];
 
 const sectionMenu = document.querySelector(".section-center");
-const filterButtons = document.querySelectorAll(".filter-btn");
+const buttonContainer = document.querySelector(".btn-container");
 
 // load window items
 window.addEventListener("DOMContentLoaded", () => {
 	displayMenuItems(menu);
-});
 
-// filter buttons functionality
-filterButtons.forEach((button) => {
-	button.addEventListener("click", (event) => {
-		const category = event.currentTarget.dataset.id;
-		const menuCategory = menu.filter((menuItem) => {
-			if (menuItem.category === category) {
-				return menuItem;
+	// find unique categories
+	const categories = menu.reduce(
+		(values, item) => {
+			if (!values.includes(item.category)) {
+				values.push(item.category);
+			}
+			return values;
+		},
+		["all"],
+	);
+
+	// add buttons dynamically
+	const categoryBtn = categories
+		.map((category) => {
+			return `<button class="filter-btn" type='button' data-id=${category}>${category}</button>`;
+		})
+		.join("");
+	buttonContainer.innerHTML = categoryBtn;
+
+	// select filter buttons
+	const filterButtons = document.querySelectorAll(".filter-btn");
+
+	// filter buttons functionality
+	filterButtons.forEach((button) => {
+		button.addEventListener("click", (event) => {
+			const category = event.currentTarget.dataset.id;
+			const menuCategory = menu.filter((menuItem) => {
+				if (menuItem.category === category) {
+					return menuItem;
+				}
+			});
+			if (category === "all") {
+				displayMenuItems(menu);
+			} else {
+				displayMenuItems(menuCategory);
 			}
 		});
-		if (category === "all") {
-			displayMenuItems(menu);
-		} else {
-			displayMenuItems(menuCategory);
-		}
 	});
 });
 
