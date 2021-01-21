@@ -93,11 +93,37 @@ const menu = [
 // separate concerns
 
 const sectionCenter = document.querySelector(".section-center");
-const filterBtn = document.querySelectorAll(".filter-btn");
+const btnContainer = document.querySelector(".btn-container");
 
 // content on load
 window.addEventListener("DOMContentLoaded", () => {
 	displayMenuItems(menu);
+	displayMenuButtons();
+});
+
+// filter functionality
+function displayMenuButtons() {
+	// find unique categories
+	const categories = menu.reduce(
+		(values, item) => {
+			if (!values.includes(item.category)) {
+				values.push(item.category);
+			}
+			return values;
+		},
+		["all"],
+	);
+
+	// add buttons to DOM dynamically
+	const categoryBtn = categories
+		.map((category) => {
+			return `<button class="filter-btn" type='button' data-id=${category}>${category}</button>`;
+		})
+		.join("");
+	btnContainer.innerHTML = categoryBtn;
+
+	// filter buttons selected
+	const filterBtn = document.querySelectorAll(".filter-btn");
 
 	// filter functionality
 	filterBtn.forEach((button) => {
@@ -115,7 +141,7 @@ window.addEventListener("DOMContentLoaded", () => {
 			}
 		});
 	});
-});
+}
 
 // display menu items on DOM
 function displayMenuItems(menuItem) {
