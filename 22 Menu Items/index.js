@@ -93,48 +93,14 @@ const menu = [
 // separate concerns
 
 const sectionCenter = document.querySelector(".section-center");
-const filterBtn = document.querySelectorAll(".filter-btn");
 const btnContainer = document.querySelector(".btn-container");
+
+// select filter buttons
+const filterBtn = document.querySelectorAll(".filter-btn");
 
 // content load
 window.addEventListener("DOMContentLoaded", () => {
 	displayMenuItems(menu);
-
-	// find unique categories
-	const categories = menu.reduce(
-		(values, item) => {
-			if (!values.includes(item.category)) {
-				value.push(item.category);
-			}
-			return values;
-		},
-		["all"],
-	);
-
-	// add category to DOM
-	const categoryBtn = categories
-		.map((category) => {
-			return `<button class="filter-btn" type='button' data-id=${category}>${category}</button>`;
-		})
-		.join("");
-	btnContainer.innerHTML = categoryBtn;
-
-	// filter button functionality
-	filterBtn.forEach((button) => {
-		button.addEventListener("click", (event) => {
-			const category = event.currentTarget.dataset.id;
-			const menuCategory = menu.filter((menuItem) => {
-				if (menuItem.category === category) {
-					return menuItem;
-				}
-			});
-			if (category === "all") {
-				displayMenuItems(menu);
-			} else {
-				displayMenuItems(menuCategory);
-			}
-		});
-	});
 });
 
 // display menu Items
