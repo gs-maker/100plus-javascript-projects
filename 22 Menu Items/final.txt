@@ -85,21 +85,37 @@ const menu = [
 	},
 ];
 
-// content load
-// display menu items
-// filter button functionality
-// find unique categories
-// map categories to DOM
-// separate concerns
+const sectionMenu = document.querySelector(".section-center");
+const buttonContainer = document.querySelector(".btn-container");
 
-const sectionCenter = document.querySelector(".section-center");
-const filterBtn = document.querySelectorAll(".filter-btn");
-// content load
+// load window items
 window.addEventListener("DOMContentLoaded", () => {
 	displayMenuItems(menu);
 
-	// filter button functionality
-	filterBtn.forEach((button) => {
+	// find unique categories
+	const categories = menu.reduce(
+		(values, item) => {
+			if (!values.includes(item.category)) {
+				values.push(item.category);
+			}
+			return values;
+		},
+		["all"],
+	);
+
+	// add buttons dynamically
+	const categoryBtn = categories
+		.map((category) => {
+			return `<button class="filter-btn" type='button' data-id=${category}>${category}</button>`;
+		})
+		.join("");
+	buttonContainer.innerHTML = categoryBtn;
+
+	// select filter buttons
+	const filterButtons = document.querySelectorAll(".filter-btn");
+
+	// filter buttons functionality
+	filterButtons.forEach((button) => {
 		button.addEventListener("click", (event) => {
 			const category = event.currentTarget.dataset.id;
 			const menuCategory = menu.filter((menuItem) => {
@@ -116,7 +132,7 @@ window.addEventListener("DOMContentLoaded", () => {
 	});
 });
 
-// display menu Items
+// display menu items
 function displayMenuItems(menuItem) {
 	let menuDisplay = menuItem.map((item) => {
 		return ` <article class="menu-item">
@@ -131,5 +147,5 @@ function displayMenuItems(menuItem) {
     </article>`;
 	});
 	menuDisplay = menuDisplay.join("");
-	sectionCenter.innerHTML = menuDisplay;
+	sectionMenu.innerHTML = menuDisplay;
 }
