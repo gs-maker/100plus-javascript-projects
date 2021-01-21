@@ -93,42 +93,17 @@ const menu = [
 // separate concerns
 
 const sectionCenter = document.querySelector(".section-center");
-const btnContainer = document.querySelector(".btn-container");
+const filterBtn = document.querySelectorAll(".filter-btn");
 
-// content load
+// content on load
 window.addEventListener("DOMContentLoaded", () => {
 	displayMenuItems(menu);
-	displayMenuButtons();
-});
 
-// function display menu buttons
-function displayMenuButtons() {
-	// find unique categories and add to list
-	const categories = menu.reduce(
-		(values, item) => {
-			if (!values.includes(item.category)) {
-				values.push(item.category);
-			}
-			return values;
-		},
-		["all"],
-	);
-
-	// add unique category button to DOM
-	const categoryBtn = categories
-		.map((category) => {
-			return `<button class="filter-btn" type='button' data-id=${category}>${category}</button>`;
-		})
-		.join("");
-	btnContainer.innerHTML = categoryBtn;
-	// select filter buttons
-	const filterBtn = document.querySelectorAll(".filter-btn");
-
-	// basic filter button functionality
+	// filter functionality
 	filterBtn.forEach((button) => {
 		button.addEventListener("click", (event) => {
 			const category = event.currentTarget.dataset.id;
-			const menuCategory = menu.filter((menuItem) => {
+			const categoryBtn = menu.filter((menuItem) => {
 				if (menuItem.category === category) {
 					return menuItem;
 				}
@@ -136,15 +111,15 @@ function displayMenuButtons() {
 			if (category === "all") {
 				displayMenuItems(menu);
 			} else {
-				displayMenuItems(menuCategory);
+				displayMenuItems(categoryBtn);
 			}
 		});
 	});
-}
+});
 
-// display menu Items
+// display menu items on DOM
 function displayMenuItems(menuItem) {
-	let menuDisplay = menuItem.map((item) => {
+	let displayMenu = menuItem.map((item) => {
 		return ` <article class="menu-item">
         <img src=${item.img} class="photo" alt=${item.title}>
         <div class="item-info">
@@ -156,6 +131,6 @@ function displayMenuItems(menuItem) {
         </div>
     </article>`;
 	});
-	menuDisplay = menuDisplay.join("");
-	sectionCenter.innerHTML = menuDisplay;
+	displayMenu = displayMenu.join("");
+	sectionCenter.innerHTML = displayMenu;
 }

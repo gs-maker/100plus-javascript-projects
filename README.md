@@ -4,7 +4,9 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 
 | Item | Day | Description                                          | Project Link & Demo code                |
 | ---- | :-- | :--------------------------------------------------- | :-------------------------------------- |
-| 24   | 15  |                                                      |                                         |
+| 25   | 17  | Tabs                                                 |                                         |
+| 24   | 16  | Music Player                                         |                                         |
+| 23   | 15  | Video Player                                         |                                         |
 | 22   | 14  | Menu Items with filter (reduce/map/DOMContentLoaded) |                                         |
 | 21   | 13  | Verify Account with 6-Digit code                     | https://codepen.io/gs-maker/pen/VwKgdNR |
 | 20   | 12  | Sticky Navigation with color change on scroll        | https://codepen.io/gs-maker/pen/YzGBeeR |
