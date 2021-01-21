@@ -94,9 +94,30 @@ const menu = [
 
 const sectionCenter = document.querySelector(".section-center");
 const filterBtn = document.querySelectorAll(".filter-btn");
+const btnContainer = document.querySelector(".btn-container");
+
 // content load
 window.addEventListener("DOMContentLoaded", () => {
 	displayMenuItems(menu);
+
+	// find unique categories
+	const categories = menu.reduce(
+		(values, item) => {
+			if (!values.includes(item.category)) {
+				value.push(item.category);
+			}
+			return values;
+		},
+		["all"],
+	);
+
+	// add category to DOM
+	const categoryBtn = categories
+		.map((category) => {
+			return `<button class="filter-btn" type='button' data-id=${category}>${category}</button>`;
+		})
+		.join("");
+	btnContainer.innerHTML = categoryBtn;
 
 	// filter button functionality
 	filterBtn.forEach((button) => {
