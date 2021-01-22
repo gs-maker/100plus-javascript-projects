@@ -4,7 +4,7 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 
 | Item | Day | Description                                          | Project Link & Demo code                |
 | ---- | :-- | :--------------------------------------------------- | :-------------------------------------- |
-| 24   | 16  | Video Player                                         |                                         |
+| 24   | 16  | Auto Speed Typing Effect                             |                                         |
 | 23   | 15  | Video Player                                         |                                         |
 | 22   | 14  | Menu Items with filter (reduce/map/DOMContentLoaded) |                                         |
 | 21   | 13  | Verify Account with 6-Digit code                     | https://codepen.io/gs-maker/pen/VwKgdNR |
