@@ -13,6 +13,10 @@ function writingEffect() {
 	if (index > text.length) {
 		index = 1;
 	}
-
 	setTimeout(writingEffect, speed);
 }
+
+// speed adjustment
+speedElement.addEventListener("input", (event) => {
+	speed = 300 / event.target.value;
+});
