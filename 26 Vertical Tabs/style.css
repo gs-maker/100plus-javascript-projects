@@ -11,7 +11,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 1080px;
+	width: 980px;
 	min-height: 100vh;
 }
 
@@ -30,7 +30,7 @@ body {
 	display: flex;
 	line-height: 1.8;
 	align-items: center;
-	margin-left: 32px;
+	padding: 0 16px;
 }
 
 .tab-contents h2 {
