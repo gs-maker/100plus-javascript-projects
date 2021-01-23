@@ -4,7 +4,7 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 
 | Item | Day | Description                                          | Project Link & Demo code                |
 | ---- | :-- | :--------------------------------------------------- | :-------------------------------------- |
-| 26   | 17  | Horizontal Tabs [add/remove active class + dataset]  |                                         |
+| 26   | 17  | Horizontal Tabs [add/remove active class + dataset]  | https://codepen.io/gs-maker/pen/bGwymox |
 | 25   | 17  | Vertical Tabs [add/remove active class + dataset]    | https://codepen.io/gs-maker/pen/xxENarM |
 | 24   | 16  | Auto Speed Typing Effect                             |                                         |
 | 23   | 15  | Video Player                                         |                                         |
