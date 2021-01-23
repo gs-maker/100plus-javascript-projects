@@ -1,7 +1,7 @@
 const nextBtn = document.querySelector("#nextBtn");
 // add prev & next functionality
 // remove 'active' class from all thumbnail maps
-// use thumbnail as selector - remove 'active' class first
+// use thumbnail of selected item as selector - remove 'active' class first
 // match thumbnail index to display index
 
 const prevBtn = document.querySelector("#prevBtn");
@@ -12,15 +12,15 @@ const items = document.querySelectorAll(".items");
 const slideWidth = slides[0].clientWidth;
 let index = 0;
 
-// next item
+// next button functionality
 nextBtn.addEventListener("click", () => {
 	index++;
 	slidesContainer.style.transform = `translateX(${-slideWidth * index}px)`;
 
-	// remove active class from all thumbnails
+	// remove 'active' class from thumbnails
 	items.forEach((item) => item.classList.remove("active"));
 
-	// continuous scroll
+	// continuos scroll
 	if (index > slides.length - 1) {
 		index = 0;
 		slidesContainer.style.transform = `translateX(0px)`;
@@ -30,15 +30,21 @@ nextBtn.addEventListener("click", () => {
 	}
 });
 
-// previous item
+// previous button functionality
 prevBtn.addEventListener("click", () => {
 	index--;
 	slidesContainer.style.transform = `translateX(${-slideWidth * index}px)`;
 
-	// continuous scroll
+	// remove 'active' class from thumbnails
+	items.forEach((item) => item.classList.remove("active"));
+
+	// continuos scroll
 	if (index < 0) {
 		index = slides.length - 1;
 		slidesContainer.style.transform = `translateX(${-slideWidth * index}px)`;
+		items[index].classList.add("active");
+	} else {
+		items[index].classList.add("active");
 	}
 });
 
@@ -47,7 +53,7 @@ items.forEach((item, itemIndex) => {
 	item.addEventListener("click", () => {
 		items.forEach((item) => item.classList.remove("active"));
 
-		// item index matches thumbnail
+		// match thumbnail to index
 		index = itemIndex;
 		item.classList.add("active");
 		slidesContainer.style.transform = `translateX(${-slideWidth * index}px)`;
