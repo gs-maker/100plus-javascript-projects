@@ -8,7 +8,11 @@ body {
 	font-family: "Avenir", sans-serif;
 	background-color: #eee;
 	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 1080px;
+	min-height: 100vh;
 }
 
 .container {
@@ -21,8 +25,16 @@ body {
 	margin: 0 16px;
 }
 
-.tab-content {
+.tab-contents {
 	width: 76%;
+	display: flex;
+	line-height: 1.8;
+	align-items: center;
+	margin-left: 32px;
+}
+
+.tab-contents h2 {
+	margin-bottom: 16px;
 }
 
 .btn {
