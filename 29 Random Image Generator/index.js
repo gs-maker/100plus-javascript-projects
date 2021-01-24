@@ -4,19 +4,19 @@ const imageURL = "https://source.unsplash.com/random/";
 // number of rows on page
 let rows = 10;
 
-// generate images for listed rows
+// generate images
 for (let i = 0; i < rows * 3; i++) {
 	const image = document.createElement("img");
 	image.src = `${imageURL}${getImageResolution()}`;
 	container.appendChild(image);
 }
 
-// random image resolution
+// function to get image resolution
 function getImageResolution() {
 	return `${getRandomSize()}x${getRandomSize()}`;
 }
 
-// random image size
+// function to get random size
 function getRandomSize() {
-	return Math.floor(Math.random() * rows) + 320;
+	return Math.floor(Math.random() * 10) + 310;
 }
