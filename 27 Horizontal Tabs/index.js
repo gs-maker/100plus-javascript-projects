@@ -14,8 +14,8 @@ buttons.forEach((btn) => {
 		const tabContents = document.querySelectorAll(".tab-content");
 		tabContents.forEach((content) => {
 			content.className = content.className.replace("active", "");
-        });
-        
+		});
+
 		document.querySelector(btn.dataset.target).classList.add("active");
 	});
 });

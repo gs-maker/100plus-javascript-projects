@@ -1,9 +1,8 @@
-const nextBtn = document.querySelector("#nextBtn");
 // add prev & next functionality
 // remove 'active' class from all thumbnail maps
 // use thumbnail of selected item as selector - remove 'active' class first
 // match thumbnail index to display index
-
+const nextBtn = document.querySelector("#nextBtn");
 const prevBtn = document.querySelector("#prevBtn");
 const slides = document.querySelectorAll(".slide");
 const slidesContainer = document.querySelector(".slides-container");
