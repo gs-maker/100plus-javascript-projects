@@ -1,13 +1,13 @@
-const boxes = document.querySelectorAll(".box");
+const boxes = document.querySelector(".box");
 
 // event listener on scroll
 window.addEventListener("scroll", animateDiv);
 // visible content on load
 animateDiv();
 
-// scroll functionality
 function animateDiv() {
 	const animateTrigger = (window.innerHeight / 5) * 4;
+
 	boxes.forEach((box) => {
 		// height of div from in comparison to scroll
 		const divTop = box.getBoundingClientRect().top;
@@ -15,7 +15,7 @@ function animateDiv() {
 		if (divTop < animateTrigger) {
 			box.classList.add("show");
 		} else {
-			box.classList.show;
+			box.classList.remove("show");
 		}
 	});
 }
