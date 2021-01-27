@@ -7,20 +7,17 @@ const form = document.getElementById("form");
 const search = document.getElementById("search");
 const main = document.getElementById("main");
 
-form.addEventListener("submit", (e) => {
-	e.preventDefault();
-	const searchQuery = e.target.querySelector("input").value;
-	const searchValue = `${API_URL}&query=${searchQuery}`;
+getMovies(API_URL);
 
-	// get initial movie listing
-	fetch(searchValue)
+function getMovies(url) {
+	fetch(url)
 		.then((res) => res.json())
 		.then((data) => {
 			data.results;
 			showMovies(data.results);
 		})
 		.catch((error) => console.log("error: ", error));
-});
+}
 
 // function to display movies
 function showMovies(movies) {
@@ -45,6 +42,18 @@ function showMovies(movies) {
 		main.appendChild(movieEl);
 	});
 }
+
+form.addEventListener("submit", (e) => {
+	e.preventDefault();
+	const searchTerm = search.value;
+	if (searchTerm && searchTerm !== "") {
+		getMovies(SEARCH_API + searchTerm);
+
+		search.value = "";
+	} else {
+		window.location.reload();
+	}
+});
 
 // color coded rating
 function getClassByRate(vote) {
