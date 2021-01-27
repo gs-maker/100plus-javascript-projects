@@ -4,8 +4,10 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 
 | Item | Day | Description                                          | Project Link & Demo code                |
 | ---- | :-- | :--------------------------------------------------- | :-------------------------------------- |
-| 31   | 19  | Github profiles using API                            |                                         |
-| 30   | 19  | Food Recipe App                                      |                                         |
+| 33   | 22  | Weather APP using API                                |                                         |
+| 32   | 21  | GITHUB Profiles using API                            |                                         |
+| 31   | 20  | Movie Database using API                             |                                         |
+| 30   | 19  | Recipe App using API [async/await/fetch]             | https://codepen.io/gs-maker/pen/WNGVxBb |
 | 29   | 18  | Random Images from Unsplash                          | https://codepen.io/gs-maker/pen/RwGzRWy |
 | 28   | 18  | Scroll Animation                                     | https://codepen.io/gs-maker/pen/MWjMeKw |
 | 27   | 17  | Horizontal Tabs [add/remove/replace class + dataset] | https://codepen.io/gs-maker/pen/bGwymox |
