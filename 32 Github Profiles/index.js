@@ -32,6 +32,7 @@ function getUserData(user) {
     </div>
 </div>
 </div>`;
+	main.innerHTML = cardHTML;
 }
 
 form.addEventListener("submit", (e) => {
