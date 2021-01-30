@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: "Lato" sans-serif;
+	font-family: "Lato", sans-serif;
 	background-color: #eee;
 	height: 100vh;
 	overflow: hidden;
@@ -23,15 +23,15 @@ body {
 .user-form input {
 	width: 100%;
 	display: block;
-	background-color: #71b9fd;
-	border: none;
-	border-radius: 10px;
+	background-color: #ffffff;
+	border: 1px solid rgb(39 39 39);
+	border-radius: 50px;
 	color: rgb(39, 39, 39);
 	padding: 1rem;
 	margin-bottom: 2rem;
 	font-family: inherit;
 	font-size: 1rem;
-	box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 5px 10px rgba(157, 162, 179, 0.05), 0 15px 40px rgba(85, 93, 104, 0.1);
 }
 
 .user-form input::placeholder {
@@ -45,9 +45,9 @@ body {
 
 .card {
 	max-width: 640px;
-	background-color: #71b9fd;
+	background-color: #ffffff;
 	border-radius: 20px;
-	box-shadow: 0 5px 10px rgba(50, 91, 255, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 5px 10px rgba(157, 162, 179, 0.05), 0 15px 40px rgba(85, 93, 104, 0.1);
 	display: flex;
 	padding: 3rem;
 	margin: 0 1.5rem;
