@@ -12,7 +12,7 @@ async function getUsers(username) {
 	try {
 		const { data } = await axios(API_URL + username);
 		createUserCard(data);
-		getRepos(user);
+		getRepos(username);
 	} catch (error) {
 		if (error.response.status == 404) {
 			errorMsg("No profile matches your search. Please check username again");
@@ -57,7 +57,8 @@ function createRepoEl(repos) {
 
 	repos.slice(0, 5).forEach((repo) => {
 		const repoEl = document.createElement("a");
-		reposEl.classList.add("repo");
+
+		repoEl.classList.add("repo");
 		repoEl.href = repo.html_url;
 		repoEl.target = "_blank";
 		repoEl.innerText = repo.name;
