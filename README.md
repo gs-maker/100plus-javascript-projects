@@ -4,7 +4,12 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 
 | Item | Day | Description                                          | Project Link & Demo code                |
 | ---- | :-- | :--------------------------------------------------- | :-------------------------------------- |
-| 33   | 22  | Weather APP using API                                |                                         |
+| 38   | 24  | News APP using API                                   |                                         |
+| 37   | 23  | Weather APP using API                                |                                         |
+| 36   | 23  | Unsplash Images App                                  |                                         |
+| 34   | 22  | Pokedeck App                                         |                                         |
+| 34   | 22  | Search App using Wikipedia API                       |                                         |
+| 33   | 21  | Random Dog/Cat images APP using API                  |                                         |
 | 32   | 21  | GITHUB Profiles using API                            |                                         |
 | 31   | 20  | Movie Database using API                             |                                         |
 | 30   | 19  | Recipe App using API [async/await/fetch]             | https://codepen.io/gs-maker/pen/WNGVxBb |
