@@ -4,14 +4,15 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 
 | Item | Day | Description                                          | Project Link & Demo code                |
 | ---- | :-- | :--------------------------------------------------- | :-------------------------------------- |
-| 39   | 25  | Breaking Bad Characters using API                    |                                         |
-| 38   | 24  | News APP using API                                   |                                         |
-| 37   | 30  | Weather APP using API                                |                                         |
-| 36   | 30  | Unsplash Images App                                  |                                         |
-| 35   | 22  | Pokedeck App                                         |                                         |
-| 34   | 23  | Search App using Wikipedia API                       |                                         |
-| 33   | 22  | Random Dog/Cat images APP using API                  |                                         |
-| 32   | 21  | GITHUB Profiles using API                            |                                         |
+| 40   | 28  | Pokedeck                                             |                                         |
+| 39   | 27  | News APP using API                                   |                                         |
+| 38   | 26  | COVID 19 tracker                                     |                                         |
+| 37   | 25  | Search Platfrom using Wikipedia API                  |                                         |
+| 36   | 24  | Weather APP using API                                |                                         |
+| 35   | 24  | Breaking Bad Characters using API                    |                                         |
+| 34   | 23  | Pexels Images App                                    |                                         |
+| 33   | 22  | GITHUB Profiles using API                            |                                         |
+| 32   | 21  | Random Dog/Cat images APP using API                  |                                         |
 | 31   | 20  | Movie Database using API                             |                                         |
 | 30   | 19  | Recipe App using API [async/await/fetch]             | https://codepen.io/gs-maker/pen/WNGVxBb |
 | 29   | 18  | Random Images from Unsplash                          | https://codepen.io/gs-maker/pen/RwGzRWy |
