@@ -10,7 +10,7 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 | 37   | 25  | Search Platfrom using Wikipedia API                  |                                         |
 | 36   | 24  | Weather APP using API                                |                                         |
 | 35   | 24  | Breaking Bad Characters using API                    |                                         |
-| 34   | 23  | Pexels Images App                                    |                                         |
+| 34   | 23  | Pexels Images App                                    | https://codepen.io/gs-maker/pen/qBqbXGN |
 | 33   | 22  | GITHUB Profiles using API                            |                                         |
 | 32   | 21  | Random Dog/Cat images APP using API                  |                                         |
 | 31   | 20  | Movie Database using API                             |                                         |
