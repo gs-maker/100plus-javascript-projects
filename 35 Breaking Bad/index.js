@@ -39,7 +39,7 @@ function generateHTML(actors) {
                 <div class="character-info">
                     <p>Nickname: ${actor.nickname}</p>
                     <p>Seasons: ${actor.appearance}</p>
-                    <p>Status: <span class="${getStatus(actor.status)}">${actor.status}</span></p>
+                    <p>Status: <span class="">${actor.status}</span></p>
                 </div>
 			</div>
 		`;
