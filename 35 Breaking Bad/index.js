@@ -8,10 +8,12 @@ let search;
 window.addEventListener("load", fetchAPI);
 
 // search field functionality
-searchInput.addEventListener("change", () => {
-	let search = searchInput.value;
-	fetchAPI(search);
+form.addEventListener("submit", (e) => {
+	e.preventDefault();
+	const query = e.target.actor.value;
+	fetchAPI(query);
 });
+
 // fetchAPI
 async function fetchAPI(query) {
 	let response;
@@ -31,8 +33,8 @@ function generateHTML(actors) {
 		const characterEl = document.createElement("div");
 		characterEl.innerHTML = "";
 
-        characterEl.classList.add("actor");
-        
+		characterEl.classList.add("actor");
+
 		characterEl.innerHTML = `
             <img src="${actor.img}"/>
             <p>Name: ${actor.name}</p>
