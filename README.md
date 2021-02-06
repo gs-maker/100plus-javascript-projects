@@ -4,11 +4,11 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 
 | Item | Day | Description                                          | Project Link & Demo code                |
 | ---- | :-- | :--------------------------------------------------- | :-------------------------------------- |
-| 40   | 28  | Pokedeck                                             |                                         |
+| 40   | 28  | Pokedex                                              |                                         |
 | 39   | 27  | News APP using API                                   |                                         |
 | 38   | 26  | COVID-19 tracker                                     |                                         |
 | 37   | 25  | Search Platform using Wikipedia API                  |                                         |
-| 36   | 24  | Weather APP using API                                |                                         |
+| 36   | 24  | Weather APP using API                                | https://codepen.io/gs-maker/pen/jOVqbey |
 | 35   | 24  | Breaking Bad Characters using API                    |                                         |
 | 34   | 23  | Pexels Images App                                    | https://codepen.io/gs-maker/pen/qBqbXGN |
 | 33   | 22  | GITHUB Profiles using API                            |                                         |

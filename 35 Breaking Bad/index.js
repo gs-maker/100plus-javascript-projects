@@ -1,16 +1,13 @@
 const searchInput = document.getElementById("search-input");
 const searchBtn = document.getElementById("search-btn");
-const characters = document.querySelector(".characters");
+const characters = document.querySelector("#characters");
 const form = document.querySelector("form");
 
 let search;
-// characters available on load
-window.addEventListener("load", fetchAPI);
-
 // search field functionality
 form.addEventListener("submit", (e) => {
 	e.preventDefault();
-	const query = e.target.actor.value;
+	const query = e.target.search.value;
 	fetchAPI(query);
 });
 
@@ -29,19 +26,23 @@ async function fetchAPI(query) {
 
 // function for each character
 function generateHTML(actors) {
+	characters.innerHTML = "";
+
 	actors.forEach((actor) => {
 		const characterEl = document.createElement("div");
-		characterEl.innerHTML = "";
-
-		characterEl.classList.add("actor");
+		characterEl.classList.add("character");
 
 		characterEl.innerHTML = `
-            <img src="${actor.img}"/>
-            <p>Name: ${actor.name}</p>
-            <p>Nickname: ${actor.nickname}</p>
-            <p>Seasons: <span>${actor.appearance}</span></p>
-            <p class="${getStatus(actor.status)}">Status: ${actor.status}</p>
-        `;
+		<div class="character">
+				<img src="${actor.img}" alt="">
+				<p>Actor Name: ${actor.name}</p>
+                <div class="character-info">
+                    <p>Nickname: ${actor.nickname}</p>
+                    <p>Seasons: ${actor.appearance}</p>
+                    <p>Status: <span class="${getStatus(actor.status)}">${actor.status}</span></p>
+                </div>
+			</div>
+		`;
 		characters.appendChild(characterEl);
 	});
 }
