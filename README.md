@@ -4,10 +4,10 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 
 | Item | Day | Description                                           | Project Link & Demo code                |
 | ---- | :-- | :---------------------------------------------------- | :-------------------------------------- |
-| 45   | 38  | Google Maps                                           |                                         |
-| 44   | 37  | News APP using API                                    |                                         |
-| 43   | 36  | COVID-19 Tracker                                      |                                         |
-| 42   | 35  | Search Platform using Wikipedia API                   |                                         |
+| 45   | 36  | Google Maps                                           |                                         |
+| 44   | 35  | News APP using API                                    |                                         |
+| 43   | 35  | COVID-19 Tracker                                      |                                         |
+| 42   | 34  | Search Platform using Wikipedia API                   |                                         |
 | 41   | 34  | Book API using ISBNDB API                             |                                         |
 | 40   | 33  | Pokedex                                               |                                         |
 | 39   | 33  | Exchange Rate Converter using API                     |                                         |

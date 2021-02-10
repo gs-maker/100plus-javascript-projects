@@ -4,8 +4,8 @@ const amountOne = document.getElementById("amount-one");
 const currencyTwo = document.getElementById("currency-two");
 const amountTwo = document.getElementById("amount-two");
 
-const rateEl = document.getElementById("rate");
 const swap = document.getElementById("swap");
+const rateEl = document.getElementById("rate");
 
 // event listeners
 currencyOne.addEventListener("change", calculateCX);
@@ -14,24 +14,24 @@ currencyTwo.addEventListener("change", calculateCX);
 amountTwo.addEventListener("input", calculateCX);
 
 swap.addEventListener("click", () => {
-	const temp = currencyOne.value;
+	let temp = currencyOne.value;
 	currencyOne.value = currencyTwo.value;
 	currencyTwo.value = temp;
 	calculateCX();
 });
 
-// fetch exchange rates and update DOM
+// functions
 function calculateCX() {
 	const currency_one = currencyOne.value;
 	const currency_two = currencyTwo.value;
 
-	fetch(`https://api.exchangeratesapi.io/latest?base=${currency_one}`)
+	fetch(` https://api.exchangeratesapi.io/latest?base=${currency_one}`)
 		.then((response) => response.json())
 		.then((data) => {
 			console.log(data);
-			const rate = data.rates[currency_two];
 
-			rateEl.innerHTML = `1 ${currency_one} = ${rate} ${currency_two}`;
+			const rate = data.rates[currency_two];
+			rateEl.innerHTML = `1${currency_one} = ${rate}${currency_two}`;
 			amountTwo.value = (amountOne.value * rate).toFixed(2);
 		});
 }
