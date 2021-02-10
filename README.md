@@ -10,7 +10,8 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 | 41   | 35  | Search Platform using Wikipedia API                   |                                         |
 | 40   | 34  | Book API using ISBNDB API                             |                                         |
 | 39   | 33  | Pokedex                                               |                                         |
-| 38   | 32  | Continuos Scrolling                                   |                                         |
+| 39   | 33  | Exchange Rate Converter using API                     |                                         |
+| 38   | 32  | Infinite scroll [fetch, scrollHeight, clientHeight]   |                                         |
 | 37   | 32  | TODO List Using Local Storage [Insert adjacentHTML()] |                                         |
 | 36   | 25  | Weather APP using API                                 | https://codepen.io/gs-maker/pen/jOVqbey |
 | 35   | 24  | Breaking Bad Characters using API                     | https://codepen.io/gs-maker/pen/poNyPxz |
