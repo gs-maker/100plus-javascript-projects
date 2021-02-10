@@ -4,12 +4,12 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 
 | Item | Day | Description                                           | Project Link & Demo code                |
 | ---- | :-- | :---------------------------------------------------- | :-------------------------------------- |
-| 44   | 38  | Google Maps                                           |                                         |
-| 43   | 37  | News APP using API                                    |                                         |
-| 42   | 36  | COVID-19 Tracker                                      |                                         |
-| 41   | 35  | Search Platform using Wikipedia API                   |                                         |
-| 40   | 34  | Book API using ISBNDB API                             |                                         |
-| 39   | 33  | Pokedex                                               |                                         |
+| 45   | 38  | Google Maps                                           |                                         |
+| 44   | 37  | News APP using API                                    |                                         |
+| 43   | 36  | COVID-19 Tracker                                      |                                         |
+| 42   | 35  | Search Platform using Wikipedia API                   |                                         |
+| 41   | 34  | Book API using ISBNDB API                             |                                         |
+| 40   | 33  | Pokedex                                               |                                         |
 | 39   | 33  | Exchange Rate Converter using API                     |                                         |
 | 38   | 32  | Infinite scroll [fetch, scrollHeight, clientHeight]   |                                         |
 | 37   | 32  | TODO List Using Local Storage [Insert adjacentHTML()] |                                         |
