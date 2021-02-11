@@ -60,15 +60,16 @@ const testimonials = [
 
 let index = 1;
 function updateTestimonial() {
-	const { name, position, photo, text } = testimonials[index];
-	testimonial.innerHTML = text;
-	userImage.src = photo;
+	const { name, photo, text, position } = testimonials[index];
 	userName.innerHTML = name;
 	userRole.innerHTML = position;
+	userImage.src = photo;
+	testimonial.innerHTML = text;
 
 	index++;
 	if (index > testimonials.length - 1) {
 		index = 0;
 	}
 }
+
 setInterval(updateTestimonial, 10000);
