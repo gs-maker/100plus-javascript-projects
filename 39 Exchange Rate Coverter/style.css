@@ -94,7 +94,7 @@ body {
 	border: none;
 	border-bottom: 1px solid black;
 	text-align: left;
-	outline: none;
+	outline: none !important;
 }
 
 .currency select {

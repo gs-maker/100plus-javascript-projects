@@ -9,7 +9,7 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 | 43   | 35  | COVID-19 Tracker                                      |                                         |
 | 42   | 34  | Search Platform using Wikipedia API                   |                                         |
 | 41   | 34  | Book API using ISBNDB API                             |                                         |
-| 40   | 33  | Pokedex                                               |                                         |
+| 40   | 34  | Testimonial Switcher                                  |                                         |
 | 39   | 33  | Exchange Rate Converter using API                     |                                         |
 | 38   | 32  | Infinite scroll [fetch, scrollHeight, clientHeight]   |                                         |
 | 37   | 32  | TODO List Using Local Storage [Insert adjacentHTML()] |                                         |
