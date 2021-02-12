@@ -4,12 +4,18 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 
 | Item | Day | Description                                           | Project Link & Demo code                |
 | ---- | :-- | :---------------------------------------------------- | :-------------------------------------- |
-| 45   | 36  | Google Maps                                           |                                         |
-| 44   | 35  | News APP using API                                    |                                         |
-| 43   | 35  | COVID-19 Tracker                                      |                                         |
-| 42   | 34  | Search Platform using Wikipedia API                   |                                         |
-| 41   | 34  | Book API using ISBNDB API                             |                                         |
-| 40   | 34  | Testimonial Switcher                                  |                                         |
+| 51   | 40  | Content Placeholder                                   |                                         |
+| 50   | 40  | Google Maps                                           |                                         |
+| 49   | 39  | Drag and Drop                                         |                                         |
+| 48   | 39  | News APP using API                                    |                                         |
+| 47   | 38  | Password Generator                                    |                                         |
+| 46   | 38  | COVID-19 Tracker                                      |                                         |
+| 45   | 37  | Book API using ISBNDB API                             |                                         |
+| 44   | 37  | Notes App                                             |                                         |
+| 43   | 36  | Live User Filter                                      |                                         |
+| 42   | 36  | Feedback Widget                                       |                                         |
+| 41   | 36  | Quiz app                                              |                                         |
+| 40   | 35  | Testimonial Switcher                                  |                                         |
 | 39   | 33  | Exchange Rate Converter using API                     |                                         |
 | 38   | 32  | Infinite scroll [fetch, scrollHeight, clientHeight]   |                                         |
 | 37   | 32  | TODO List Using Local Storage [Insert adjacentHTML()] |                                         |

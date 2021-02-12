@@ -60,11 +60,12 @@ const testimonials = [
 
 let index = 1;
 function updateTestimonial() {
-	const { name, photo, text, position } = testimonials[index];
+	const { name, position, photo, text } = testimonials[index];
+
+	testimonial.innerHTML = text;
+	userImage.src = photo;
 	userName.innerHTML = name;
 	userRole.innerHTML = position;
-	userImage.src = photo;
-	testimonial.innerHTML = text;
 
 	index++;
 	if (index > testimonials.length - 1) {
