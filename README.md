@@ -12,9 +12,9 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 | 46   | 38  | COVID-19 Tracker                                      |                                         |
 | 45   | 37  | Book API using ISBNDB API                             |                                         |
 | 44   | 37  | Notes App                                             |                                         |
-| 43   | 36  | Live User Filter                                      |                                         |
-| 42   | 36  | Feedback Widget                                       |                                         |
-| 41   | 36  | Quiz app                                              |                                         |
+| 43   | 37  | Quiz App                                              |                                         |
+| 42   | 37  | Feedback Widget                                       |                                         |
+| 41   | 36  | Live User Filter                                      |                                         |
 | 40   | 35  | Testimonial Switcher                                  |                                         |
 | 39   | 33  | Exchange Rate Converter using API                     |                                         |
 | 38   | 32  | Infinite scroll [fetch, scrollHeight, clientHeight]   |                                         |
