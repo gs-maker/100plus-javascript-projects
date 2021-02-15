@@ -4,17 +4,17 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 
 | Item | Day | Description                                           | Project Link & Demo code                |
 | ---- | :-- | :---------------------------------------------------- | :-------------------------------------- |
-| 51   | 40  | Content Placeholder                                   |                                         |
+| 51   | 41  | Content Placeholder                                   |                                         |
 | 50   | 40  | Google Maps                                           |                                         |
-| 49   | 39  | Drag and Drop                                         |                                         |
-| 48   | 39  | News APP using API                                    |                                         |
-| 47   | 38  | Password Generator                                    |                                         |
-| 46   | 38  | COVID-19 Tracker                                      |                                         |
-| 45   | 37  | Book API using ISBNDB API                             |                                         |
-| 44   | 37  | Notes App                                             |                                         |
-| 43   | 37  | Quiz App                                              |                                         |
-| 42   | 37  | Feedback Widget                                       |                                         |
-| 41   | 36  | Live User Filter                                      |                                         |
+| 49   | 40  | Drag and Drop                                         |                                         |
+| 48   | 40  | News APP using API                                    |                                         |
+| 47   | 39  | Password Generator                                    |                                         |
+| 46   | 39  | COVID-19 Tracker                                      |                                         |
+| 45   | 39  | Book API using ISBNDB API                             |                                         |
+| 44   | 38  | Notes App                                             |                                         |
+| 43   | 38  | Quiz App                                              |                                         |
+| 42   | 38  | Feedback Widget [event bubbling & propagation]        |                                         |
+| 41   | 36  | Live User Filter /Searchable List                     |                                         |
 | 40   | 35  | Testimonial Switcher                                  |                                         |
 | 39   | 33  | Exchange Rate Converter using API                     |                                         |
 | 38   | 32  | Infinite scroll [fetch, scrollHeight, clientHeight]   |                                         |

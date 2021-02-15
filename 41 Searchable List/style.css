@@ -28,7 +28,7 @@ body {
 }
 
 .header {
-	background-color: slategray;
+	background-color: rgb(65, 75, 87);
 	color: white;
 	padding: 2rem 1rem;
 }
