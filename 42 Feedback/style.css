@@ -83,8 +83,12 @@ body {
 	transform: scale(0.98);
 }
 
-ion-icon{
+ion-icon {
 	color: red;
-	font-size: 28px;
+	font-size: 32px;
 	margin-bottom: 12px;
+}
+
+.feedback {
+	margin-top: 2rem;
 }
