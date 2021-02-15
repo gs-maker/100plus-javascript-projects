@@ -1,8 +1,8 @@
 // selectors
 const ratings = document.querySelectorAll(".rating");
 const ratingsContainer = document.querySelector(".ratings-container");
-const sendBtn = document.querySelector("#send");
 const panel = document.querySelector("#panel");
+const sendBtn = document.querySelector("#send");
 let selectedRating = "satisfied";
 
 // event listeners
@@ -20,13 +20,12 @@ sendBtn.addEventListener("click", (e) => {
         <strong>Tussen Takk!</strong>
         </br>
         <p>Feedback: <strong>${selectedRating}</strong></p>
-        </br>
-        <p class="feedback">Thank you for your feedback. We shall use it to improve your customer service experience moving forward</p>
+        <p class="feedback">Your feedback is well received and we shall endeavour too make your customer experience a lot better the next time around.</p>
 
     `;
 });
 
-// remove active class
+// functions
 function removeActive() {
 	ratings.forEach((rating) => {
 		rating.classList.remove("active");
