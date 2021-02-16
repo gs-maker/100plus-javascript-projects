@@ -12,7 +12,7 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 | 47   | 39  | COVID-19 Tracker                                      |                                         |
 | 46   | 39  | Book API using ISBNDB API                             |                                         |
 | 45   | 39  | Notes App                                             |                                         |
-| 44   | 38  | Quiz App                                              |                                         |
+| 44   | 38  | Music Player                                          |                                         |
 | 43   | 38  | Custom Range Slider                                   |                                         |
 | 42   | 38  | Feedback Widget [event bubbling & propagation]        |                                         |
 | 41   | 36  | Live User Filter /Searchable List                     |                                         |
