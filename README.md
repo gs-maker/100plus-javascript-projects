@@ -4,15 +4,16 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 
 | Item | Day | Description                                           | Project Link & Demo code                |
 | ---- | :-- | :---------------------------------------------------- | :-------------------------------------- |
-| 52   | 41  | Content Placeholder                                   |                                         |
-| 51   | 40  | Google Maps                                           |                                         |
-| 50   | 40  | Drag and Drop                                         |                                         |
-| 49   | 40  | News APP using API                                    |                                         |
-| 48   | 39  | Password Generator                                    |                                         |
-| 47   | 39  | COVID-19 Tracker                                      |                                         |
-| 46   | 39  | Book API using ISBNDB API                             |                                         |
-| 45   | 39  | Notes App                                             |                                         |
-| 44   | 38  | Music Player                                          |                                         |
+| 53   | 41  | Content Placeholder                                   |                                         |
+| 52   | 40  | Google Maps                                           |                                         |
+| 51   | 40  | Drag and Drop                                         |                                         |
+| 50   | 40  | News APP using API                                    |                                         |
+| 49   | 39  | Password Generator                                    |                                         |
+| 48   | 39  | COVID-19 Tracker                                      |                                         |
+| 47   | 39  | Book API using ISBNDB API                             |                                         |
+| 46   | 39  | Notes App                                             |                                         |
+| 45   | 40  | Sortable List [Drag & Drop]                           |                                         |
+| 44   | 39  | Music Player                                          |                                         |
 | 43   | 38  | Custom Range Slider                                   |                                         |
 | 42   | 38  | Feedback Widget [event bubbling & propagation]        |                                         |
 | 41   | 36  | Live User Filter /Searchable List                     |                                         |
