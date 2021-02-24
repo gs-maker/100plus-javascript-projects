@@ -4,13 +4,14 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 
 | Item | Day | Description                                           | Project Link & Demo code                |
 | ---- | :-- | :---------------------------------------------------- | :-------------------------------------- |
-| 53   | 41  | Content Placeholder                                   |                                         |
-| 52   | 40  | Google Maps                                           |                                         |
-| 51   | 40  | Drag and Drop                                         |                                         |
-| 50   | 40  | News APP using API                                    |                                         |
-| 49   | 39  | Password Generator                                    |                                         |
-| 48   | 39  | COVID-19 Tracker                                      |                                         |
-| 47   | 39  | Book API using ISBNDB API                             |                                         |
+| 54   | 41  | Content Placeholder                                   |                                         |
+| 53   | 40  | Google Maps                                           |                                         |
+| 52   | 40  | Drag and Drop                                         |                                         |
+| 51   | 40  | News APP using API                                    |                                         |
+| 50   | 39  | Password Generator                                    |                                         |
+| 49   | 43  | COVID-19 Tracker                                      |                                         |
+| 48   | 42  | Book API using ISBNDB API                             |                                         |
+| 47   | 42  | Quiz App                                              |                                         |
 | 46   | 39  | Notes App                                             |                                         |
 | 45   | 40  | Sortable List [Drag & Drop]                           |                                         |
 | 44   | 39  | Music Player                                          |                                         |
