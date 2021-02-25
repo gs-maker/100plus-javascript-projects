@@ -11,6 +11,8 @@ In the quest to improve my understanding of Javascript, I am on a journey to bui
 | 50   | 39  | Password Generator                                    |                                         |
 | 49   | 43  | COVID-19 Tracker                                      |                                         |
 | 48   | 42  | Book API using ISBNDB API                             |                                         |
+| 49   | 43  | Random Jokes with api                                 |                                         |
+| 48   | 43  | Number facts api                                      |                                         |
 | 47   | 42  | Quiz App                                              |                                         |
 | 46   | 39  | Notes App                                             |                                         |
 | 45   | 40  | Sortable List [Drag & Drop]                           |                                         |
